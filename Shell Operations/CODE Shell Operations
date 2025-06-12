@@ -1,0 +1,35 @@
+#!/bin/bash
+echo "Enter the value of a"
+read a
+echo "Enter the value of b"
+read b
+
+sum=`expr $a + $b`
+sub=`expr $a - $b`
+mul=`expr $a \* $b`
+div=`expr $a / $b`
+mod=`expr $a % $b`
+
+echo "sum:"$sum
+echo "subtraction:"$sub
+echo "multiplication:"$mul
+echo "division:"$div
+echo "modulo:"$mod
+----------------------------------------
+#!/bin/bash
+echo "Enter the value of a"
+read a
+echo "Enter the value of b"
+read b
+
+sum=$( (a+b) )
+sub=$( (a-b) )
+mul=$( (a*b) )
+div=$( (a\b) )
+mod=$( (a%b) )
+
+echo "sum:"$sum
+echo "sub:"$sub
+echo "mul:"$mul
+echo "div:"$div
+echo "mod:"$mod
