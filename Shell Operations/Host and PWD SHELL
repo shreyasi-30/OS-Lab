@@ -1,0 +1,9 @@
+#!/bin/bash
+host=$(hostname)
+echo "my current host is:"$host
+
+----------------------------------------
+
+#!/bin/bash
+current_directory=$(pwd)
+echo "My current directory is: $current_directory"
